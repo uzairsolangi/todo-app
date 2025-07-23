@@ -15,6 +15,8 @@ A clean, modern and responsive to-do list web app to help you stay organized and
 ![Screenshot](assets/light-mode.png)
 ![Screenshot](assets/dark-mode.png) 
 
+🔗 **Live Demo:** [Click here to try the app](https://uzairsolangi.github.io/todo-app/)
+
 🚀 Getting Started
 
 To run the project locally:
