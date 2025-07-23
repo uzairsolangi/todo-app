@@ -13,6 +13,7 @@ A clean, modern and responsive to-do list web app to help you stay organized and
 📸 Preview
 
 ![Screenshot](assets/light-mode.png)
+![Screenshot](assets/dark-mode.png) 
 
 🚀 Getting Started
 
