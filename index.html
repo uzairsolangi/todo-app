@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple To-Do App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="main-wrapper">
+    <header class="app-header">
+      <h1>My To-Do List</h1>
+      <p class="subtitle">A simple yet stylish app to keep your daily tasks organized.</p>
+      <button id="darkModeToggle" class="dark-toggle">🌙</button>
+    </header>
+
+    <main class="container">
+      <div class="input-row">
+        <input type="text" id="taskInput" placeholder="Enter a task..." />
+        <button onclick="addTask()">Add Task</button>
+      </div>
+
+      <div id="bulkControls">
+        <button id="markAllBtn">✅ Mark All</button>
+        <button id="clearAllBtn">🗑️ Clear All</button>
+      </div>
+
+      <ul id="taskList"></ul>
+    </main>
+
+    <footer class="app-footer">
+      <p>
+        © 2025 My To-Do App | Built by
+        <a href="https://github.com/uzairsolangi" target="_blank" rel="noopener noreferrer">
+          Allah Dino/Uzair
+        </a>
+      </p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
